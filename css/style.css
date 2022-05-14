@@ -173,6 +173,81 @@
     margin-top: 35px;
 }
 
+.main_text_2 {
+    margin-top: auto;
+    width: 1280px;
+    text-align: center;
+    margin-left: 100px;
+    /*background: skyblue;*/
+}
+
+.contents2 {
+    display: flex;
+    width: 1280px;
+    background: white;
+    margin: auto;
+    text-align: center;
+}
+
+.contents2 > li {
+    flex: 1;
+    height: 302px;
+    background: lightgrey;
+    margin-top: 50px;
+}
+
+.contents2 > li:not(:last-child) {
+    margin-right: 20px;
+}
+
+.contents2 > .CaseStudy3 > .Phonebox {
+    flex: 40%;
+    background-image: url(../images/icon0.png);
+    background-size: 60%;
+    height: 302px;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    margin-top: 35px;
+}
+
+.CaseStudy3 {
+    display: flex;
+}
+
+.Phonebox_text {
+    flex: 60%;
+    margin-right: 15px;
+    margin-top: 60px;
+}
+
+.Phonebox_text > h2 {
+    margin-bottom: 20px;
+}
+
+.CaseStudy4 {
+    display: flex;
+}
+
+.Travel_text {
+    flex: 60%;
+    margin-right: 15px;
+    margin-top: 60px;
+}
+
+.Travel_text > h2 {
+    margin-bottom: 20px;
+}
+
+.contents > .CaseStudy4 > .Travel {
+    flex: 40%;
+    background-image: url(../images/icon0.png);
+    background-size: 60%;
+    height: 302px;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    margin-top: 35px;
+}
+
 .logo_story {
     /*background-color: red;*/
     height: 350px;
